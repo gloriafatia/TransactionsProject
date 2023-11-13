@@ -1,0 +1,31 @@
+.bruh {
+    height: 30px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    
+
+}
+button.collapse {
+    width: auto;
+    display: flex;
+    align-self: center;
+    display: flex;
+    border: none;
+    background-color: transparent;
+    margin-top: 0rem;
+  }
+  button.MuiButtonBase-root {
+      width: 50px;
+  }
+
+  .collapse:hover{
+    background-color: lightpink;
+  }
+
+  .collapse:active {
+    background-color: #700639;
+}

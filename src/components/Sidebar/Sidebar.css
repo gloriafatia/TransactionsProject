@@ -1,0 +1,99 @@
+.color {
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+    position: relative;
+    height: 100%;
+  width: 250px;
+  background-color: pink;
+}
+.content {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: white; 
+}
+
+  
+.sidebarRows {
+    height: auto;
+    padding: 0;
+    background-color: pink;
+}
+
+.sidebarRows .row {
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: Roboto, Arial, sans-serif;
+    background-color: pink;
+}
+
+.sidebarRows .row:hover {
+    cursor: pointer;
+    background-color: #700639;
+}
+
+.sidebarRows .row #iconContainer {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+   
+}
+
+.sidebarRows .row #titleContainer {
+    flex: 70%;
+     
+}
+
+.sidebarRows .row #titleContainer h3 {
+    font-weight: lighter;
+    font-size: 15px;
+    
+}
+
+#active {
+    background-color: #d5d5d5;
+}
+
+#active #iconContainer {
+    color: red;
+}
+
+#user-placement {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    
+}
+.toggle-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-button:hover {
+    background-color: #555;
+  }
+
+  .center {
+    align-items: center;
+    display: inline-flex;
+  }
+
+  
+
+
+
+
